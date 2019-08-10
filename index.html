@@ -2,36 +2,49 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="icon" type="images/png" href="image/logo2.png">
+    <link rel="stylesheet" href="css/estilo.css">
     <title>Matias Ibarra</title>
   </head>
   <body>
 
 <!-- -----------aqui esta la navbar-------------- -->
     <header class="header">
-      <div class="navbar">
-        <div class="logo">
-          <figure>
-            <img src="" alt="">
+      <div class="container">
+        <div class="navbar">
+          <figure class="logo">
+            <img  src="image/logo2.png" alt="Aqui va el logo" width="50" height="50">
           </figure>
-          <h1>Matias Ibarra</h1>
-      </div>
-      <nav class="menu">
-        <ol>
-          <li><a href="#">El Poliglota</a> </li>
-          <li><a href="#">Trabajemos Juntos</a> </li>
-        </ol>
-      </nav>
+          <h1> <a href="index.html">Matias Ibarra</a></h1>
+        </div>
+        <nav>
+          <div class="menu">
+            <ol>
+              <li> <a href="#">El Poliglota</a>      </li>
+              <li> <a href="#Contacto">Trabajemos Juntos</a> </li>
+            </ol>
+          </div>
+        </nav>
 
+      </div>
     </header>
 <!-- --------------- aqui termina la navbar------------------- -->
     <section class="hero">
-      <div class="container2 fadeIn">
+      <div class="container">
         <h1>
           Hola! Soy <strong>Matias Ibarra</strong> <br/> Desarrollador  <strong>Fronted</strong> con <br> pasión por la <strong>enseñanza</strong>
         </h1>
         <img class="hero-image" src="image/hero.png" width="500" height="300" alt="imagen principal del sitio">
       </div>
     </section>
+    <section class="contacto" >
+      <h2>Creemos algo juntos</h2>
+      <form class="" action="/suscripcion" method="post">
+        <input type="email" placeholder="Dejame tu email" value="">
+        <button type="button" name="button-email">Enviar</button>
 
+      </form>
+    </section>
+    <footer></footer>
   </body>
 </html>
