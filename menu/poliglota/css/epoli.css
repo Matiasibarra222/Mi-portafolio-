@@ -1,0 +1,50 @@
+
+.introduccion{
+  margin.left: 30%;
+  margin-top: 25px;
+  width: 480px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f4fbff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+article{
+  /* border: 3px solid black; */
+}
+.detalles h1{
+  color:#026FFF;
+}
+
+.introduccion h3 strong{
+  color: blue;
+
+}
+
+
+.detalles h3{
+
+  font-size: 15px;
+}
+.detalles {
+  height: 220px;
+  padding: 5px;
+  border-radius: 25px;
+  font-family: 'Indie Flower';
+  background-color: white;
+  text-align: center;
+  position: relative;
+  margin: -80px 80px 0;
+}
+
+intro. img {
+
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}

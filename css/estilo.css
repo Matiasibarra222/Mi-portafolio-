@@ -1,6 +1,6 @@
 body{
   margin: 0px;
-  background-color: #fff;
+  background-color: #f4fbff;;
 }
 
 header{
@@ -50,6 +50,7 @@ li a:hover{
 /* -----------------------------empieza el hero----------------- */
 .hero{
   margin-top: 10px;
+  font-family: 'Fredericka the Great';
 }
 
 .container{
