@@ -1,13 +1,16 @@
 
 .introduccion{
+  display: flex;
   margin.left: 30%;
   margin-top: 25px;
   width: 480px;
   border-radius: 10px;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #f4fbff;
   padding: 20px;
   text-align: center;
+  /* justify-content */
+
 }
 
 
@@ -30,6 +33,7 @@ article{
   font-size: 15px;
 }
 .detalles {
+  border: 2px solid black;
   height: 220px;
   padding: 5px;
   border-radius: 25px;
